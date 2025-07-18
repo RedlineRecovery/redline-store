@@ -1,4 +1,5 @@
 import React from "react";
+import heroimage from "./assets/firetruck-photo.jpg";
 
 export default function RecoveryStorefront() {
   return (
