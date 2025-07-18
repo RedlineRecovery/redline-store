@@ -1,1 +1,5 @@
-import React from "react"; import ReactDOM from "react-dom"; import "./index.css"; import RecoveryStorefront from "./RecoveryStorefront"; ReactDOM.render(<RecoveryStorefront />, document.getElementById("root"));
+<img
+  src="/firetruck.jpg"
+  alt="Firefighter and family in front of firetruck"
+  className="rounded-lg w-full md:w-[40%] shadow-lg"
+/>
