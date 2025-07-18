@@ -1,0 +1,1 @@
+import React from "react"; import ReactDOM from "react-dom"; import "./index.css"; import RecoveryStorefront from "./RecoveryStorefront"; ReactDOM.render(<RecoveryStorefront />, document.getElementById("root"));
