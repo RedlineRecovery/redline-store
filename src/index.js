@@ -1,5 +1,11 @@
-<img
-  src="/firetruck.jpg"
-  alt="Firefighter and family in front of firetruck"
-  className="rounded-lg w-full md:w-[40%] shadow-lg"
-/>
+import React from 'react';
+import ReactDOM from 'react-dom/client';
+import './index.css';
+import RecoveryStorefront from './RecoveryStorefront';
+
+const root = ReactDOM.createRoot(document.getElementById('root'));
+root.render(
+  <React.StrictMode>
+    <RecoveryStorefront />
+  </React.StrictMode>
+);
