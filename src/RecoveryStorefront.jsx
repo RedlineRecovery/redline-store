@@ -51,4 +51,46 @@ export default function RecoveryStorefront() {
       {/* DOWNLOADS */}
       <div className="text-center py-10 px-4">
         <h2 className="text-lg font-bold mb-4">Downloads</h2>
-        <div className="flex flex
+        <div className="flex flex-wrap justify-center gap-4">
+          <a
+            href="/downloads/Lower-Back-Rehab-Plan.pdf"
+            className="px-4 py-2 border rounded hover:bg-gray-100"
+          >
+            Lower Back Rehab Plan
+          </a>
+          <a
+            href="/downloads/Lisfranc-Rehab-Program.pdf"
+            className="px-4 py-2 border rounded hover:bg-gray-100"
+          >
+            Lisfranc Rehab Program
+          </a>
+          <a
+            href="/downloads/Hips-Groin-Rehab-Program.pdf"
+            className="px-4 py-2 border rounded hover:bg-gray-100"
+          >
+            Hips & Groin Rehab Program
+          </a>
+        </div>
+      </div>
+
+      {/* GUIDES */}
+      <div className="text-center border-t py-10 px-4">
+        <h2 className="text-lg font-bold mb-4">Guides</h2>
+        <div className="flex flex-wrap justify-center gap-4">
+          <a
+            href="/downloads/Your-Rights-After-a-Collision-in-BC.pdf"
+            className="text-blue-600 underline"
+          >
+            Your Rights After a Collision in BC
+          </a>
+          <a
+            href="/downloads/Family-Support-for-PTSD.pdf"
+            className="text-blue-600 underline"
+          >
+            Family Support for PTSD
+          </a>
+        </div>
+      </div>
+    </div>
+  );
+}
