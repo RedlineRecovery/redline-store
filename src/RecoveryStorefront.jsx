@@ -37,7 +37,7 @@ export default function RecoveryStorefront() {
         <img
           src="/firetruck-photo.jpg"
           alt="Firefighter and family in front of firetruck"
-          className="rounded-lg w-full md:w-1/2 shadow-lg"
+          className="rounded-lg w-full md:w-{30%] shadow-lg"
         />
       </div>
 
